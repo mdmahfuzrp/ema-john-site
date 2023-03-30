@@ -1,0 +1,45 @@
+.product{
+    border: 1px solid #95A0A7;
+    width: 300px;
+    border-radius: 10px;
+    position: relative;
+}
+.product-info{
+    padding: 10px;
+}
+.product .top-img{
+    padding: 5px;
+}
+.product img{
+    width: 100%;
+    border-radius: 10px;
+}
+.product h2.product-name{
+    font-size: 21px;
+    line-height: 25px;
+    color: #0E161A;
+}
+.product h3.product-price{
+    font-size: 17px;
+    line-height: 20px;
+    color: #0E161A;
+}
+.product p{
+    color: #2A414F;
+    margin: 0;
+    padding-top: 5px;
+}
+.product p.product-rating{
+    padding-bottom: 10px;
+}
+.product .add-to-cart{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    background: #FFE0B3;
+    border-top: 1px solid #95A0A7;
+}
+.product .add-to-cart:hover{
+    background-color: #f4cb8d;
+}

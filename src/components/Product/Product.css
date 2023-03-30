@@ -43,3 +43,7 @@
 .product .add-to-cart:hover{
     background-color: #f4cb8d;
 }
+.product .add-to-cart .cart-icon{
+    font-size: 15px;
+    margin-left: 10px;
+}

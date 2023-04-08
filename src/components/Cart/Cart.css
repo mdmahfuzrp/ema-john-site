@@ -26,15 +26,23 @@
     letter-spacing: 0.0015em;
     color: #0E161A;
 }
-.cart .cart-btn-container button{
+.cart .cart-btn-container{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+}
+.cart .cart-btn-container .link-btn{
     width: 100%;
     border-radius: 4px;
     font-size: 17px;
     line-height: 20px;
     letter-spacing: 0.005em;
     color: #FFFFFF;
+    text-decoration: none;
+    padding: 8px 10px;
 }
-.cart .cart-btn-container button span{
+.cart .cart-btn-container .link-btn span{
     margin-left: 10px;
 }
 .cart .cart-btn-container .cart-btn{

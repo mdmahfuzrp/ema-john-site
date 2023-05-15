@@ -5,7 +5,7 @@ import { faTrashCan } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
 const ReviewItem = ({product, handleRemoveCartItem}) => {
-    const {id, name, img, price, quantity} = product;
+    const {_id, name, img, price, quantity} = product;
     return (
         <div className='cart-product'>
             <img src={img} alt="" />
@@ -15,7 +15,7 @@ const ReviewItem = ({product, handleRemoveCartItem}) => {
                     <p>Price: <span>${price}</span></p>
                     <p>Order Quantity: <span>{quantity}</span></p>
                 </div>
-                <Link onClick={()=>handleRemoveCartItem(id)} className="delete-btn"><FontAwesomeIcon className='delete-icon' icon={faTrashCan}/></Link>
+                <Link onClick={()=>handleRemoveCartItem(_id)} className="delete-btn"><FontAwesomeIcon className='delete-icon' icon={faTrashCan}/></Link>
             </div>
         </div>
     );

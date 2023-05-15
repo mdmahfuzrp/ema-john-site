@@ -8,3 +8,10 @@
     gap: 20px;
     padding: 50px;
 }
+.pagination{
+    width: fit-content;
+    margin: 50px auto;
+}
+.pagination .selected{
+    background-color: #FF9900;
+}
